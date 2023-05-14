@@ -5,7 +5,7 @@ import ChartDonut from "./ChartDonut.jsx";
 import TableBase from "./TableBase";
 
 function DashboardBase() {
-  const [selectedView, setSelectedView] = useState(2);
+  const [selectedView, setSelectedView] = useState(1);
   return (
     <>
       <main className="bg-slate-200 p-6 sm:p-10">
